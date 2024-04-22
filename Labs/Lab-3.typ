@@ -10,33 +10,23 @@
   */
   authors:
   (
-    (
-      name: "Abdelbacet Mhamdi",
-      department: [Senior-lecturer, Dept. of EE],
-      organization: [ISET Bizerte --- Tunisia],
-      profile: "a-mhamdi",
-    ),
+   
 
-    /*
+    
     (
-      name: "Student 1",
-      department: [Dept. of EE],
+      name: "Chiheb Ben Taghalline",
+      department: [ AII21 ],
       organization: [ISET Bizerte --- Tunisia],
-      profile: "abc",
+      profile: "chiheb0156",
     ),
     (
-      name: "Student 2",
-      department: [Dept. of EE],
+      name: "Ala Jemai",
+      department: [ AII21 ],
       organization: [ISET Bizerte --- Tunisia],
-      profile: "abc",
+      profile: "",
     ),
-    (
-      name: "Student 3",
-      department: [Dept. of EE],
-      organization: [ISET Bizerte --- Tunisia],
-      profile: "abc",
-    )
-  */
+    
+  
 
   )
   // index-terms: (""),
@@ -44,7 +34,7 @@
 )
 
 = Exercise
-In this lab, you will create a basic web application using *Genie* framework in Julia. The application will allow us to control the behaviour of a sine wave, given some adjustble parameters. You are required to carry out this lab using the REPL as in @fig:repl.
+In this lab, we will create a basic web application using *Genie* framework in Julia. The application will allow us to control the behaviour of a sine wave, given some adjustble parameters. You are required to carry out this lab using the REPL as in @fig:repl.
 
 #figure(
 	image("Images/REPL.png", width: 100%, fit: "contain"),
@@ -78,6 +68,9 @@ We can now open the browser and navigate to the link #highlight[#link("localhost
 ) <fig:genie-webapp>
 
 #test[You are asked to add two extra sliders that modify the behaviour of the sine wave graph:
-	+ _Phase_ ranging between $-pi$ and $pi$, changes by a step of $pi/100$
+	+ _Phase_ ranging between $-pi$ and $pi$, changes by a step of $pi/100$,
+
+We are pleased to inform you that the feature has been integrated into the code. Please check it out  
 	+ _Offset_ varies from $-0.5$ to $1$, by a step of $0.1$.]
+The change request has been fulfilled. Please examine the code for validation
 
